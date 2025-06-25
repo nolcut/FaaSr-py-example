@@ -19,4 +19,4 @@ jobs:
     - name: run python
       run: |
         cd /action
-        Rscript faasr_start_invoke_github_actions.py
+        python3 faasr_start_invoke_github_actions.py
